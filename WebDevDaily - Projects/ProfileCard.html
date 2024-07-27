@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+      font-family: 'Exo', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="m-0 p-0 min-h-screen bg-[#282828] grid place-items-center">
+  <main class="bg-[#FFFFFF] rounded-md p-8 select-none flex flex-col gap-4 justify-center items-center">
+    <header>
+      <img src="https://cdn.pixabay.com/photo/2015/05/01/22/04/girl-749113_960_720.jpg"
+        class="rounded-full h-24 w-24 object-cover" alt="profile">
+    </header>
+    <section class="flex flex-col gap-4">
+      <div class="flex flex-col justify-center items-center gap-1">
+        <h1 class="font-bold">Honey Rose</h1>
+        <h2>Frontend Developer</h2>
+        <h2>@WebDevDaily</h2>
+      </div>
+      <div class="flex gap-4 text-3xl">
+        <i class="fa-brands fa-github hover:text-[#a6b1b7]"></i>
+        <i class="fa-brands fa-linkedin hover:text-[#0a66c2]"></i>
+        <i class="fa-brands fa-instagram hover:text-[#c32aa3]"></i>
+        <i class="fa-brands fa-facebook hover:text-[#1877f2]"></i>
+        <i class="fa-brands fa-dribbble hover:text-[#ea4c89]"></i>
+      </div>
+    </section>
+    <footer class="flex gap-4 [&>*]:rounded-md [&>*]:px-8 [&>*]:py-2">
+      <button
+        class="border-2 border-[#97B1E8] text-[#447FF2] font-medium hover:bg-[#4E87F7] hover:text-[#E2F6FF]">Message</button>
+      <button class="bg-[#4E87F7] text-[#E2F6FF] font-medium">Connect</button>
+    </footer>
+  </main>
+</body>
+
+</html>

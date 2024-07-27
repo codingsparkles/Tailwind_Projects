@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Component</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+      font-family: 'Exo', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="m-0 p-0 min-h-screen bg-[#FDE2E2] grid place-items-center">
+  <main class="bg-[#FFFFFF] m-10 rounded-lg select-none">
+    <header class="p-4 flex justify-between items-center gap-10">
+      <div class="flex flex-col justify-between">
+        <h1 class="text-lg font-bold">Transactions</h1>
+        <p class="text-xs">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+      <div class="flex items-center justify-center gap-1">
+        <button class="text-[#625BD1] text-sm font-medium">See All Transactions</button>
+        <div class="border-4 border-[#8A84EA] border-b-0 border-l-0 h-4 w-4 rotate-45"></div>
+      </div>
+    </header>
+    <table>
+      <tbody>
+        <tr
+          class="border-b-2 border-[#EFEEF2] flex justify-between items-center [&>*]:h-20 [&>*]:flex [&>*]:flex-col [&>*]:justify-center hover:bg-[#F8FAFC]">
+          <td class="w-40 grid place-items-center">
+            <div class="bg-[#DBFCE8] flex items-center gap-4 py-1 px-3 rounded-full">
+              <span class="bg-[#22C45E] size-2 rounded-full"></span><span class="text-sm">Completed</span>
+            </div>
+          </td>
+          <td class="w-48">
+            <div class="text-md font-bold">Visa card **** 4831</div>
+            <div class="text-sm">Card Payment</div>
+          </td>
+          <td class="w-36">
+            <div class="text-md font-bold">$182.94</div>
+            <div class="text-sm">Jan 17, 2022</div>
+          </td>
+          <td class="w-32">
+            <div class="text-sm">Amazon</div>
+          </td>
+          <td class="w-16">
+            <div class="rounded-full size-2 bg-[#A2A0AB] text-[#A2A0AB] shadow-[10px_0,-10px_0]"></div>
+          </td>
+        </tr>
+        <tr
+          class="border-b-2 border-[#EFEEF2] flex justify-between items-center [&>*]:h-20 [&>*]:flex [&>*]:flex-col [&>*]:justify-center hover:bg-[#F8FAFC]">
+          <td class="w-40 grid place-items-center">
+            <div class="bg-[#DBFCE8] flex items-center gap-4 py-1 px-3 rounded-full">
+              <span class="bg-[#22C45E] size-2 rounded-full"></span><span class="text-sm">Completed</span>
+            </div>
+          </td>
+          <td class="w-48">
+            <div class="text-md font-bold">Mastercard **** 6442</div>
+            <div class="text-sm">Card Payment</div>
+          </td>
+          <td class="w-36">
+            <div class="text-md font-bold">$99.00</div>
+            <div class="text-sm">Jan 17, 2022</div>
+          </td>
+          <td class="w-32">
+            <div class="text-sm">Facebook</div>
+          </td>
+          <td class="w-16">
+            <div class="rounded-full size-2 bg-[#A2A0AB] text-[#A2A0AB] shadow-[10px_0,-10px_0]"></div>
+          </td>
+        </tr>
+        <tr
+          class="border-b-2 border-[#EFEEF2] flex justify-between items-center [&>*]:h-20 [&>*]:flex [&>*]:flex-col [&>*]:justify-center hover:bg-[#F8FAFC]">
+          <td class="w-40 grid place-items-center">
+            <div class="bg-[#FEF9C4] flex items-center gap-4 py-1 px-3 rounded-full">
+              <span class="bg-[#F9CC17] size-2 rounded-full"></span><span class="text-sm">Pending</span>
+            </div>
+          </td>
+          <td class="w-48">
+            <div class="text-md font-bold">Account ****882</div>
+            <div class="text-sm">Bank Payment</div>
+          </td>
+          <td class="w-36">
+            <div class="text-md font-bold">$249.94</div>
+            <div class="text-sm">Jan 17, 2022</div>
+          </td>
+          <td class="w-32">
+            <div class="text-sm">Netflix</div>
+          </td>
+          <td class="w-16">
+            <div class="rounded-full size-2 bg-[#A2A0AB] text-[#A2A0AB] shadow-[10px_0,-10px_0]"></div>
+          </td>
+        </tr>
+        <tr
+          class="flex justify-between items-center [&>*]:h-20 [&>*]:flex [&>*]:flex-col [&>*]:justify-center hover:bg-[#F8FAFC] rounded-b-lg">
+          <td class="w-40 grid place-items-center">
+            <div class="bg-[#FDE2E2] flex items-center gap-4 py-1 px-3 rounded-full">
+              <span class="bg-[#ED4444] size-2 rounded-full"></span><span class="text-sm">Cancelled</span>
+            </div>
+          </td>
+          <td class="w-48">
+            <div class="text-md font-bold">Amex card **** 5666</div>
+            <div class="text-sm">Card Payment</div>
+          </td>
+          <td class="w-36">
+            <div class="text-md font-bold">$199.24</div>
+            <div class="text-sm">Jan 17, 2022</div>
+          </td>
+          <td class="w-32">
+            <div class="text-sm">Amazon Prime</div>
+          </td>
+          <td class="w-16">
+            <div class="rounded-full size-2 bg-[#A2A0AB] text-[#A2A0AB] shadow-[10px_0,-10px_0]"></div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+
+</html>

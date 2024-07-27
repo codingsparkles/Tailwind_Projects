@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work Layout</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+      font-family: 'Exo', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="m-0 p-0 min-h-screen bg-[#A4B5C8] grid place-items-center">
+  <main class="bg-[#FFFFFF] rounded-md my-8 mx-24 p-10 select-none flex flex-col justify-center items-center">
+    <header class="flex justify-center items-center flex-col gap-4">
+      <h1 class="text-[#F65A5A] font-bold text-xs">CASE STUDIES </h1>
+      <p class="w-60 text-center font-bold">Our works describe why we are the best in the business</p>
+    </header>
+    <section class="grid grid-cols-1 sm:grid-cols-2 grid-row-3 gap-5 px-14 py-8">
+      <article class="sm:col-start-1 sm:row-start-1 sm:row-end-3 sm:grid-span-2">
+        <img class="h-70 w-60 rounded-md object-cover"
+          src="https://cdn.pixabay.com/photo/2019/09/17/18/48/computer-4484283_640.jpg" alt="graphic design" />
+        <div class="p-3">
+          <h2 class="text-sm text-[#C1C4C8]">Graphic Design</h2>
+          <h3 class="font-bold text-sm">Aura Branding Design</h3>
+        </div>
+      </article>
+      <article class="sm:row-start-1">
+        <img class="h-45 w-60 rounded-md object-cover"
+          src="https://cdn.pixabay.com/photo/2016/11/19/09/42/berries-1838314_1280.jpg" alt="graphic design 2" />
+        <div class="p-3">
+          <h2 class="text-sm text-[#C1C4C8]">Graphic Design</h2>
+          <h3 class="font-bold text-sm">AB.S Snack Packaging</h3>
+        </div>
+      </article>
+      <article>
+        <img class="h-45 w-60 rounded-md object-cover"
+          src="https://cdn.pixabay.com/photo/2020/03/29/18/50/liquid-4981844_960_720.jpg" alt="web Development" />
+        <div class="p-3">
+          <h2 class="text-sm text-[#C1C4C8]">Web Development</h2>
+          <h3 class="font-bold text-sm">Gradient Website Development</h3>
+        </div>
+      </article>
+      <article class="sm:row-start-2 sm:row-span-2">
+        <img class="h-70 w-60 rounded-md object-cover"
+          src="https://cdn.pixabay.com/photo/2017/08/07/09/25/house-2601876_1280.jpg" alt="content writing" />
+        <div class="p-3">
+          <h2 class="text-sm text-[#C1C4C8]">Content Writing</h2>
+          <h3 class="font-bold text-sm">Magazine Content Writing</h3>
+        </div>
+      </article>
+    </section>
+    <div class="flex items-center justify-center gap-2">
+      <button class="text-[#736AF4] text-sm font-bold">See all work</button>
+      <div class="border-4 border-[#736AF4] border-b-0 border-l-0 h-4 w-4 rotate-45 grid place-items-center">
+        <div class="bg-[#736AF4] w-1 h-4 -mt-0.5 rotate-45"></div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
