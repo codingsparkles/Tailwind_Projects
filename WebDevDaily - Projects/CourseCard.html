@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+      font-family: 'Exo', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="m-0 p-0 min-h-screen bg-[#64748B] grid place-items-center">
+  <main class="bg-[#FFFFFF] rounded select-none flex flex-col items-center w-[18rem] overflow-hidden">
+    <header class="w-[100%] h-[162px]">
+      <img src="https://cdn.pixabay.com/photo/2015/05/28/14/53/ux-788002_1280.jpg"
+        class="object-cover w-[100%] h-[100%]" alt="product design">
+    </header>
+    <section class="flex flex-col gap-[10px] p-4">
+      <div
+        class="flex items-center gap-3 [&>*]:bg-[#F7F8F9] [&>*]:text-[#767F8C] [&>*]:p-2 [&>*]:text-[.5rem] [&>*]:font-medium">
+        <span>UX Design</span>
+        <span>Product Design</span>
+        <span>Prototyping</span>
+        <span>+3</span>
+      </div>
+      <h1 class="text-[#23272D] font-bold">Intro to Product Design</h1>
+      <h2 class="text-[#3180DC] font-medium text-[.85rem]">6 - 8 Week Course</h2>
+      <p class="text-[#272B31] font-medium text-[.85rem] line-clamp-5">
+        Discover the essentials of product design in this industry
+        course. Learn how to turn ideas into reality by understanding
+        the fundamentals of user-centered design, prototyping, and so on</p>
+      <div class="flex items-center">
+        <img
+          src="https://images.pexels.com/photos/837358/pexels-photo-837358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          class="rounded-full h-9 w-9 object-cover" alt="member 1">
+        <img
+          src="https://images.pexels.com/photos/5618162/pexels-photo-5618162.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          class="rounded-full h-9 w-9 object-cover -ml-[.75rem]" alt="member 2">
+        <img
+          src="https://images.pexels.com/photos/8117552/pexels-photo-8117552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          class="rounded-full h-9 w-9 object-cover -ml-[.75rem]" alt="member 3">
+        <img src="https://cdn.pixabay.com/photo/2015/05/01/22/04/girl-749113_960_720.jpg"
+          class="rounded-full h-9 w-9 object-cover -ml-[.75rem]" alt="member 4">
+        <h3 class="text-[#79869A] text-sm ml-[.65rem]">Join 956+ Members</h3>
+      </div>
+    </section>
+    <footer class="w-[100%] flex p-3 pt-0 gap-2 [&>*]:rounded [&>*]:px-8 [&>*]:py-2">
+      <button
+        class="flex items-center justify-center bg-[#F7F8F9] hover:bg-[#4E87F7] hover:text-[#E2F6FF] w-[4rem] text-[#0062D4]">
+        <i class="fa-regular fa-heart"></i>
+      </button>
+      <button class="bg-[#0062D4] text-[#EAF2FC] font-medium flex-1">Apply Now</button>
+    </footer>
+  </main>
+</body>
+
+</html>
