@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+      font-family: 'Exo', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="m-0 p-0 min-h-screen select-none flex flex-col md:flex-row justify-center items-center">
+    <img src="https://cdn.pixabay.com/photo/2023/10/30/07/30/lake-8352059_960_720.jpg"
+      class="object-cover h-screen w-[100%] md:w-[50vw]" alt="nature">
+    <section
+      class="flex flex-col justify-between items-center [&>*]:justify-between [&>*]:items-center min-h-screen w-[100%] md:w-[50vw] bg-[#F3D4A8]">
+      <header class="justify-start py-4 flex">
+        <span
+          class="size-4 absolute bg-[#000] bg-[linear-gradient(115deg,_var(--tw-gradient-stops))] from-[#000_0_10px] via-[#F3D4A8_10px_12px,#000_12px_15px,#F3D4A8_15px_17px] to-[#000_17px_0] [clip-path:polygon(50%_0%,0%_100%,100%_100%)]"></span>
+        <h1 class="font-bold relative ml-6">EcoWorld</h1>
+      </header>
+      <div class="flex flex-col gap-2 justify-center items-center">
+        <h2 class="font-bold text-3xl text-center w-[100%] md:w-[30vw] px-[1rem] md:px-0">Opps! You have discovered a
+          world not
+          found!</h2>
+        <p class="text-center text-sm font-[600] w-[30vw]">Home is just a click away. Let's go back and
+          continue our
+          regular life
+        </p>
+        <button class="h-10 w-32 mt-6 bg-[#180E0F] text-[#F3D4A8]">Go To Home</button>
+      </div>
+      <footer class="py-4">
+        <p class="text-sm">Error code 404</p>
+      </footer>
+    </section>
+  </main>
+</body>
+
+</html>

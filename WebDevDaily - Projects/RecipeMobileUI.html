@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Mobile UI</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+      font-family: 'Exo', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="m-0 p-0 min-h-screen bg-[#6B6969] grid place-items-center">
+  <main
+    class="bg-gradient-to-b from-[#3D3D3D_0%_30%] to-[#212121_0] rounded-md p-4 w-96 gap-4 select-none flex flex-col justify-center items-center [&>*]:w-[100%] overflow-hidden">
+    <nav class="flex justify-between items-center gap-52 text-[#EEEEEE]">
+      <i class="fa-solid fa-chevron-left"></i>
+      <i class="fa-regular fa-bookmark"></i>
+    </nav>
+    <div class="grid place-items-center">
+      <img src="./Assets/green_salad.png" class="h-[10rem]" />
+    </div>
+    <section class="flex flex-col gap-3">
+      <h1 class="text-[#FFFFFF] text-sm">Green Salad (2 Serves)</h1>
+      <p class="text-[#C9C5C5] relative text-[.65rem]">
+        These tasty and easy green salad recipes are so versatile!
+        They pair with just about any main dish from...
+        <span class="absolute text-[#FFFFFF] text-[.75rem]">Read More</span>
+      </p>
+      <div class="text-[#D3D3D3] flex justify-between [&>*]:text-xs">
+        <span><i class="fa-solid fa-clock text-[#C7E4FE] mr-[.5rem]"></i>15 min</span>
+        <span><i class="fa-solid fa-fire text-[#FF8F1F] mr-[.5rem]"></i>150 Kcal</span>
+        <span><i class="fa-solid fa-star text-[#FFD469] mr-[.5rem]"></i>4.9 (183)</span>
+      </div>
+    </section>
+    <hr class="border-t-[#252525]" />
+    <section class="flex flex-col gap-2">
+      <div class="flex justify-between">
+        <h2 class="text-[#ACACAC] text-sm font-bold">Ingredients</h2>
+        <span class="text-[#4F4F4F] text-sm">10 item</span>
+      </div>
+      <div class="flex items-center justify-center gap-4">
+        <div class="bg-[#282828] p-[.75rem] rounded-md flex flex-col gap-1 ml-[1rem]">
+          <img src="./Assets/brocalli.png" class="object-cover h-12 w-24" />
+          <h3 class="text-[#D7D7D7] text-xs w-14">Broccoli</h3>
+          <span class="text-[#595959] text-[.65rem]">200 gm</span>
+        </div>
+        <div class="bg-[#282828] p-[.75rem] rounded-md flex flex-col gap-1">
+          <img src="./Assets/chillies.png" class="object-cover h-12 w-24" />
+          <h3 class="text-[#D7D7D7] text-xs w-14">Chilli</h3>
+          <span class="text-[#595959] text-[.65rem]">10 pieces</span>
+        </div>
+        <div class="bg-[#282828] p-[.75rem] rounded-md flex flex-col gap-1">
+          <img src="./Assets/corn.png" class="object-cover h-12 w-24" />
+          <h3 class="text-[#D7D7D7] text-xs w-14">Corn</h3>
+          <span class="text-[#595959] text-[.65rem]">3 pieces</span>
+        </div>
+        <div class="bg-[#282828] p-[.75rem] rounded-md flex flex-col gap-1">
+          <img src="./Assets/carrot.png" class="object-cover h-12 w-24" />
+          <h3 class="text-[#D7D7D7] text-xs w-14">Carrot</h3>
+          <span class="text-[#595959] text-[.65rem]">5 pieces</span>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
