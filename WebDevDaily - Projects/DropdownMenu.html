@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropdown Menu</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+      font-family: 'Exo', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="m-0 p-0 min-h-screen bg-[#616161] grid place-items-center">
+  <main class="rounded-md select-none bg-[#131212] px-2 py-3 text-[#D4CDCD]">
+    <div class="flex gap-4 justify-center items-center">
+      <img src="https://cdn.pixabay.com/photo/2015/05/01/22/04/girl-749113_960_720.jpg"
+        class="size-10 object-cover rounded-full" alt="profile">
+      <div class="flex-1">
+        <h1 class="text-md">George Sears</h1>
+        <h2 class="text-xs">georgesears@gmail.com</h2>
+      </div>
+      <div class="flex flex-col text-[10px]">
+        <i class="fa-solid fa-chevron-up"></i>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+    </div>
+    <hr class="my-2 border-[#292929]">
+    <ul
+      class="w-[256px] [&>*]:h-12 [&>*]:p-3 [&>*]:flex [&>*]:gap-4 [&>*]:rounded-md [&>*]:items-center [&>*]:cursor-pointer">
+      <li class="hover:bg-[#292929]">
+        <i class="fa-regular fa-user"></i>
+        <span class="text-sm">Account Settings</span>
+      </li>
+      <li class="hover:bg-[#292929]">
+        <i class="fa-solid fa-table-cells-large"></i>
+        <span class="text-sm">Integrations</span>
+      </li>
+      <li class="hover:bg-[#292929]">
+        <i class="fa-solid fa-gear"></i>
+        <span class="text-sm">Settings</span>
+      </li>
+      <li class="hover:bg-[#292929]">
+        <i class="fa-regular fa-file"></i>
+        <span class="text-sm">Guide</span>
+      </li>
+      <li class="hover:bg-[#292929]">
+        <i class="fa-regular fa-circle-question"></i>
+        <span class="text-sm">Help Center</span>
+      </li>
+    </ul>
+    <hr class="my-2 border-[#292929]">
+    <div class="flex justify-between px-3 py-2">
+      <div class="flex flex-col">
+        <span class="text-md">Free Plan</span>
+        <span class="text-xs">12,500 views</span>
+      </div>
+      <button class="bg-[#9AAEFF] text-[#30344A] text-sm font-bold px-4 rounded-md">Upgrade</button>
+    </div>
+    <hr class="my-2 border-[#292929]">
+    <div class="flex gap-4 p-2 items-center">
+      <i class="fa-solid fa-arrow-right-to-bracket"></i>
+      <span class="text-sm">Logout</span>
+    </div>
+  </main>
+</body>
+
+</html>
