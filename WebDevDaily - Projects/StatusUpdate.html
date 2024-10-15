@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Status Update</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+    * {
+      font-family: "Roboto Slab", serif;
+    }
+  </style>
+</head>
+
+<body class="m-0 p-0 min-h-screen bg-[#E9EAEE] grid place-items-center">
+  <main class="rounded-md select-none bg-[#FFFEFE] p-10 flex flex-col gap-4 shadow-[0_0_25px_#D0D2D8]">
+    <header class="flex gap-6">
+      <img
+        src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="profile" class="rounded-full size-16 object-cover border-[3px] border-[#D60033] shadow-[0_0_5px_#D60033] self-center">
+      <div class="flex-1 self-center md:w-[22rem]">
+        <h1 class="text-xl font-bold">Esther Howard</h1>
+        <h2 class="text-sm text-[#928D8D]">@esther_howard</h2>
+      </div>
+      <i class="fa-solid fa-xmark text-[#A9A6A6] mt-[.5rem]"></i>
+    </header>
+    <section class="text-[#A9A6A6] w-[100%] flex justify-between mt-[2rem] border-[#A9A6A6] border-b-[1px] pb-[.5rem]">
+      <input type="text" placeholder="What's on your mind" class="flex-1 outline-none">
+      <i class="fa-solid fa-microphone hover:text-[#D60033]"></i>
+    </section>
+    <footer class="flex flex-col md:flex-row gap-3 justify-between items-center">
+      <div class="flex gap-4 flex-1 [&>*]:text-[#D60033]">
+        <i class="fa-solid fa-camera transition hover:scale-[1.25]"></i>
+        <i class="fa-solid fa-smile transition hover:scale-[1.25]"></i>
+        <i class="fa-solid fa-image transition hover:scale-[1.25]"></i>
+      </div>
+      <button
+        class="bg-[#D60033] text-[#FFF] h-[36px] w-[100%] md:w-[80px] rounded-md font-bold transition hover:scale-[1.15]">Post</button>
+    </footer>
+  </main>
+</body>
+
+</html>
