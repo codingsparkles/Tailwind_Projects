@@ -17,13 +17,13 @@
   </style>
 </head>
 
-<body class="m-0 p-0 min-h-screen bg-[#616161] grid place-items-center">
+<body class="m-0 p-0 min-h-screen">
   <main
-    class="min-h-[94vh] bg-gradient-to-b md:bg-gradient-to-r from-[#FFFFFF_0%_54%] md:from-[#FFFFFF_0%_73%] to-[#1F1F1F_0] md:to-[#1F1F1F_0] rounded-md m-8 px-10 pt-2 pb-0 select-none flex flex-col justify-center items-center">
+    class="min-h-screen bg-gradient-to-b md:bg-gradient-to-r from-[#FFFFFF_0%_54%] md:from-[#FFFFFF_0%_73%] to-[#1F1F1F_0] md:to-[#1F1F1F_0] px-10 pt-2 pb-0 select-none flex flex-col justify-between items-center">
     <header class="flex flex-col md:flex-row gap-2 justify-between md:justify-between items-center w-[100%]">
-      <img src="Assets/SparkleFitnessGym.png" alt="logo" class="size-24">
+      <img src="Assets/SparkleFitnessGym.png" alt="logo" class="size-24 md:size-28">
       <nav
-        class="flex gap-5 [&>*]:list-none [&>*]:text-[#6E6D6D] [&>*]:w-[70px] [&>*]:text-center flex-wrap justify-center items-center">
+        class="flex gap-5 md:gap-[4rem] [&>*]:list-none [&>*]:text-[#6E6D6D] [&>*]:w-[5rem] [&>*]:text-center [&>*]:md:text-[1.5rem] flex-wrap justify-center items-center">
         <li class="hover:text-[#000000] hover:font-bold">Home</li>
         <li class="hover:text-[#000000] hover:font-bold">About</li>
         <li class="hover:text-[#000000] hover:font-bold">Trainers</li>
@@ -31,33 +31,37 @@
         <li class="hover:text-[#000000] hover:font-bold">Plans</li>
       </nav>
       <button
-        class="rounded-xl font-bold text-sm bg-[#000000] text-[#FFFFFF] h-[2.5rem] w-[120px] mt-[1rem] md:mt-0">Join
+        class="rounded-xl font-bold text-sm bg-[#000000] text-[#FFFFFF] h-[2.5rem] w-[8rem] md:h-[3rem] md:w-[10rem] mt-[1rem] md:mt-0 transition hover:scale-[1.125]">Join
         Now</button>
     </header>
     <section class="flex flex-col md:flex-row justify-between items-center">
       <div class="flex flex-col gap-5 mt-[1rem] md:mt-[10rem] mb-[2rem] order-2 md:order-1">
-        <h1 class="text-[#FFFFFF] md:text-[#000000] font-bold text-[2rem] w-[15rem]">ELEVATE YOUR WORKOUT</h1>
-        <p class="text-[#6E6D6D]">Sparkle fitness gym is your ultimate fitness companion, offering personalized workout
+        <h1 class="text-[#FFFFFF] md:text-[#000000] font-bold text-[2rem] md:text-[4rem] w-[15rem] md:w-[30rem]">ELEVATE
+          YOUR WORKOUT</h1>
+        <p class="text-[#6E6D6D] md:text-[1.5rem]">Sparkle fitness gym is your ultimate fitness companion, offering
+          personalized workout
           plans, expert guidance,
           and a supportive community. Elevate your fitness journey and achieve your goals with tailored routines and
           progress tracking. Start your path to a stronger you today!</p>
-        <div class="flex gap-4 mt-[1rem]">
+        <div class="flex gap-2 mt-[1rem]">
           <button
-            class="rounded-xl py-3 px-6 font-bold text-sm bg-[#000000] text-[#FFFFFF] transition hover:scale-[1.15]">Get
+            class="rounded-xl font-bold text-sm bg-[#000000] text-[#FFFFFF] h-[2.5rem] w-[8rem] md:h-[3rem] md:w-[10rem] transition hover:scale-[1.15]">Get
             Started</button>
-          <button class="font-bold text-sm text-[#FFFFFF] md:text-[#000000] transition hover:scale-[1.15]">
+          <button
+            class="font-bold text-sm text-[#FFFFFF] md:text-[#000000] h-[2.5rem] w-[8rem] md:h-[3rem] md:w-[10rem] transition hover:scale-[1.15]">
             <i class="fa-regular fa-circle-play mr-[.5rem]"></i>Play Video</button>
         </div>
-        <div class="flex gap-4 [&>*]:text-3xl mt-[1rem] [&>*]:text-[#FFF] [&>*]:md:text-[#000]">
+        <div class="flex gap-4 [&>*]:text-3xl [&>*]:md:text-4xl mt-[1rem] [&>*]:text-[#FFF] [&>*]:md:text-[#000]">
           <i class="fa-brands fa-facebook hover:text-[#1877f2]"></i>
           <i class="fa-brands fa-instagram hover:text-[#c32aa3]"></i>
           <i class="fa-brands fa-whatsapp hover:text-[#0a66c2]"></i>
-          <i class="fa-brands fa-dribbble hover:text-[#a6b1b7]"></i>
+          <i class="fa-brands fa-dribbble hover:text-[#ea4c89]"></i>
         </div>
       </div>
       <aside
-        class="self-center mt-[1rem] md:mt-0 md:self-end order-1 md:order-2 bg-gradient-to-r from-[#FF2A00_0_20px] via-[#0000_20px_40px,#FF2A00_40px_60px,#0000_60px_80px,#FF2A00_80px_100px,#0000_100px_120px,#FF2A00_120px_140px,#0000_140px_160px,#FF2A00_160px_180px,#0000_180px_200px,#FF2A00_200px_220px,#0000_220px_240px,#FF2A00_240px_260px,#0000_260px_280px,#FF2A00_280px_300px,#0000_300px_320px,#FF2A00_320px_340px] to-[#0000_0] bg-[length:340px_150px] bg-no-repeat bg-[center_top_1rem]">
-        <img src="Assets/WorkoutDemo.png" alt="workout demo" class="min-w-[47vw] min-h-[80vh] object-contain">
+        class="self-center mt-[1rem] md:mt-0 md:self-end order-1 md:order-2 bg-gradient-to-r from-[#FF2A00_0_20px] via-[#0000_20px_40px,#FF2A00_40px_60px,#0000_60px_80px,#FF2A00_80px_100px,#0000_100px_120px,#FF2A00_120px_140px,#0000_140px_160px,#FF2A00_160px_180px,#0000_180px_200px,#FF2A00_200px_220px,#0000_220px_240px,#FF2A00_240px_260px,#0000_260px_280px,#FF2A00_280px_300px,#0000_300px_320px,#FF2A00_320px_340px] to-[#0000_0] bg-[length:340px_200px] bg-no-repeat bg-[center_top_1rem]">
+        <img src="Assets/WorkoutDemo.png" alt="workout demo"
+          class="min-w-[47vw] min-h-[70vh] max-h-[86vh] object-contain">
       </aside>
     </section>
   </main>
