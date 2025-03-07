@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order UI</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+      font-family: 'Exo', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-[#E9EAEE] m-0 p-0 min-h-screen select-none flex items-center justify-center">
+  <main class="bg-[#FFFFFF] flex flex-col md:flex-row justify-center items-center p-6 rounded-xl gap-6">
+    <figure>
+      <img
+        src="https://img.freepik.com/free-photo/hand-holding-shopping-bag-element-icon-symbol-offer-retail-discount-promotion-ecommerce-online-shopping-3d-illustration_56104-2109.jpg?t=st=1741361999~exp=1741365599~hmac=a51cbe7b80c71851f4a14fa1cdad8e6c01b8a866f032c849c9ef8067075ba45d&w=996"
+        class="object-cover h-[320px] w-[250px] rounded-md" alt="order">
+      <figcaption class="text-[12px] text-end">Designed by <a href="www.freepik.com">Freepik</a></figcaption>
+    </figure>
+    <section class="flex flex-col justify-between items-center gap-2">
+      <h1 class="font-bold mb-4">Thanks for your Order!</h1>
+      <div class="font-bold text-[12px] w-[100%] flex justify-between">
+        <span>ORDER #123456</span>
+        <span>DATE: 07-03-2025</span>
+      </div>
+      <hr class="w-[100%]" />
+      <ol class="[&>*]:flex [&>*]:justify-between [&>*]:items-center">
+        <li class="min-w-[22rem]"><span>1. Apple Watch 9</span><span>$399</span></li>
+        <li><span>2.Airpods Pro(2nd Gen)</span><span>$249</span></li>
+      </ol>
+      <hr class="w-[100%]" />
+      <ul class="[&>*]:flex [&>*]:justify-between [&>*]:items-center self-end">
+        <li class="min-w-[12rem]"><span>Order Fee</span><span>$50</span></li>
+        <li class="min-w-[12rem]"><span>Discount</span><span>$75</span></li>
+        <li class="min-w-[12rem]"><span>Var(15%)</span><span>$96.50</span></li>
+      </ul>
+      <hr class="w-[100%]" />
+      <div class="font-bold min-w-[12rem] flex justify-between items-center self-end">
+        <span>Total</span>
+        <span>$869.50</span>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
